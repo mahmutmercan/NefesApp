@@ -1,0 +1,6 @@
+framework module Pods_NefesApp {
+  umbrella header "Pods-NefesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

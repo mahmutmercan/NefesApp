@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8529934326E73F06004BEDF5 /* RecommentedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529934126E73F06004BEDF5 /* RecommentedCVC.swift */; };
+		8529934426E73F06004BEDF5 /* RecommentedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8529934226E73F06004BEDF5 /* RecommentedCVC.xib */; };
+		8529934826E75ED7004BEDF5 /* cardsCollectionsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */; };
+		8529934926E75ED7004BEDF5 /* cardsCollectionsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8529934726E75ED7004BEDF5 /* cardsCollectionsCVC.xib */; };
+		8529935626E79598004BEDF5 /* ProgramCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529935426E79598004BEDF5 /* ProgramCVC.swift */; };
+		8529935726E79598004BEDF5 /* ProgramCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8529935526E79598004BEDF5 /* ProgramCVC.xib */; };
+		85A8FEC126E6459C00A1EE58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEC026E6459C00A1EE58 /* AppDelegate.swift */; };
+		85A8FEC326E6459C00A1EE58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEC226E6459C00A1EE58 /* SceneDelegate.swift */; };
+		85A8FEC526E6459C00A1EE58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEC426E6459C00A1EE58 /* ViewController.swift */; };
+		85A8FEC826E6459C00A1EE58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A8FEC626E6459C00A1EE58 /* Main.storyboard */; };
+		85A8FECB26E6459C00A1EE58 /* NefesApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEC926E6459C00A1EE58 /* NefesApp.xcdatamodeld */; };
+		85A8FECD26E6459F00A1EE58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A8FECC26E6459F00A1EE58 /* Assets.xcassets */; };
+		85A8FED026E6459F00A1EE58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A8FECE26E6459F00A1EE58 /* LaunchScreen.storyboard */; };
+		85A8FEE226E64F4200A1EE58 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEE126E64F4200A1EE58 /* HomeVC.swift */; };
+		85A8FEE526E64F6100A1EE58 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEE426E64F6100A1EE58 /* CategoryVC.swift */; };
+		85A8FEE826E64F7900A1EE58 /* CardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEE726E64F7900A1EE58 /* CardsVC.swift */; };
+		85A8FEEB26E64F9600A1EE58 /* ProgramsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEEA26E64F9600A1EE58 /* ProgramsVC.swift */; };
+		85A8FEEE26E64FAB00A1EE58 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A8FEED26E64FAB00A1EE58 /* ProfileVC.swift */; };
+		85FD24C726E8B5C200F16B52 /* DiscoverCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD24C526E8B5C200F16B52 /* DiscoverCVC.swift */; };
+		85FD24C826E8B5C200F16B52 /* DiscoverCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85FD24C626E8B5C200F16B52 /* DiscoverCVC.xib */; };
+		AE55BCAD8075BF536E1DF84D /* Pods_NefesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB3A595FB10C630AFA79472 /* Pods_NefesApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DB3A595FB10C630AFA79472 /* Pods_NefesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NefesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8529934126E73F06004BEDF5 /* RecommentedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommentedCVC.swift; sourceTree = "<group>"; };
+		8529934226E73F06004BEDF5 /* RecommentedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommentedCVC.xib; sourceTree = "<group>"; };
+		8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsCollectionsCVC.swift; sourceTree = "<group>"; };
+		8529934726E75ED7004BEDF5 /* cardsCollectionsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cardsCollectionsCVC.xib; sourceTree = "<group>"; };
+		8529935426E79598004BEDF5 /* ProgramCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCVC.swift; sourceTree = "<group>"; };
+		8529935526E79598004BEDF5 /* ProgramCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgramCVC.xib; sourceTree = "<group>"; };
+		85A8FEBD26E6459C00A1EE58 /* NefesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NefesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A8FEC026E6459C00A1EE58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85A8FEC226E6459C00A1EE58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85A8FEC426E6459C00A1EE58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85A8FEC726E6459C00A1EE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85A8FECA26E6459C00A1EE58 /* NefesApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NefesApp.xcdatamodel; sourceTree = "<group>"; };
+		85A8FECC26E6459F00A1EE58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85A8FECF26E6459F00A1EE58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85A8FED126E6459F00A1EE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A8FEE126E64F4200A1EE58 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		85A8FEE426E64F6100A1EE58 /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		85A8FEE726E64F7900A1EE58 /* CardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsVC.swift; sourceTree = "<group>"; };
+		85A8FEEA26E64F9600A1EE58 /* ProgramsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsVC.swift; sourceTree = "<group>"; };
+		85A8FEED26E64FAB00A1EE58 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		85FD24C526E8B5C200F16B52 /* DiscoverCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCVC.swift; sourceTree = "<group>"; };
+		85FD24C626E8B5C200F16B52 /* DiscoverCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscoverCVC.xib; sourceTree = "<group>"; };
+		CF9FF72D1F15FDC51052C181 /* Pods-NefesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NefesApp.release.xcconfig"; path = "Target Support Files/Pods-NefesApp/Pods-NefesApp.release.xcconfig"; sourceTree = "<group>"; };
+		D2EBBD2F02F86A3216B08B64 /* Pods-NefesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NefesApp.debug.xcconfig"; path = "Target Support Files/Pods-NefesApp/Pods-NefesApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85A8FEBA26E6459C00A1EE58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE55BCAD8075BF536E1DF84D /* Pods_NefesApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D4224C658AE0D673506904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB3A595FB10C630AFA79472 /* Pods_NefesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38BA4248706F84E0EF1680A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2EBBD2F02F86A3216B08B64 /* Pods-NefesApp.debug.xcconfig */,
+				CF9FF72D1F15FDC51052C181 /* Pods-NefesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8529935B26E7A705004BEDF5 /* Home CVC */ = {
+			isa = PBXGroup;
+			children = (
+				8529934126E73F06004BEDF5 /* RecommentedCVC.swift */,
+				8529934226E73F06004BEDF5 /* RecommentedCVC.xib */,
+			);
+			path = "Home CVC";
+			sourceTree = "<group>";
+		};
+		8529935C26E7A70C004BEDF5 /* Discover CVC */ = {
+			isa = PBXGroup;
+			children = (
+				85FD24C526E8B5C200F16B52 /* DiscoverCVC.swift */,
+				85FD24C626E8B5C200F16B52 /* DiscoverCVC.xib */,
+			);
+			path = "Discover CVC";
+			sourceTree = "<group>";
+		};
+		8529935D26E7A71D004BEDF5 /* Cards CVC */ = {
+			isa = PBXGroup;
+			children = (
+				8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */,
+				8529934726E75ED7004BEDF5 /* cardsCollectionsCVC.xib */,
+			);
+			path = "Cards CVC";
+			sourceTree = "<group>";
+		};
+		8529935E26E7A72A004BEDF5 /* Program CVC */ = {
+			isa = PBXGroup;
+			children = (
+				8529935426E79598004BEDF5 /* ProgramCVC.swift */,
+				8529935526E79598004BEDF5 /* ProgramCVC.xib */,
+			);
+			path = "Program CVC";
+			sourceTree = "<group>";
+		};
+		8529935F26E7A736004BEDF5 /* Profile CVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile CVC";
+			sourceTree = "<group>";
+		};
+		85A8FEB426E6459C00A1EE58 = {
+			isa = PBXGroup;
+			children = (
+				85A8FEBF26E6459C00A1EE58 /* NefesApp */,
+				85A8FEBE26E6459C00A1EE58 /* Products */,
+				38BA4248706F84E0EF1680A6 /* Pods */,
+				33D4224C658AE0D673506904 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		85A8FEBE26E6459C00A1EE58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FEBD26E6459C00A1EE58 /* NefesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85A8FEBF26E6459C00A1EE58 /* NefesApp */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FED926E6484D00A1EE58 /* Application */,
+				85A8FEDC26E6487200A1EE58 /* Models */,
+				85A8FEDB26E6486800A1EE58 /* Controller */,
+				85A8FEDD26E6488A00A1EE58 /* ReuseableViews */,
+				85A8FEC626E6459C00A1EE58 /* Main.storyboard */,
+				85A8FECC26E6459F00A1EE58 /* Assets.xcassets */,
+				85A8FECE26E6459F00A1EE58 /* LaunchScreen.storyboard */,
+				85A8FED126E6459F00A1EE58 /* Info.plist */,
+				85A8FEC926E6459C00A1EE58 /* NefesApp.xcdatamodeld */,
+			);
+			path = NefesApp;
+			sourceTree = "<group>";
+		};
+		85A8FED926E6484D00A1EE58 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FEC026E6459C00A1EE58 /* AppDelegate.swift */,
+				85A8FEC226E6459C00A1EE58 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		85A8FEDB26E6486800A1EE58 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FEC426E6459C00A1EE58 /* ViewController.swift */,
+				85A8FEE126E64F4200A1EE58 /* HomeVC.swift */,
+				85A8FEE426E64F6100A1EE58 /* CategoryVC.swift */,
+				85A8FEE726E64F7900A1EE58 /* CardsVC.swift */,
+				85A8FEEA26E64F9600A1EE58 /* ProgramsVC.swift */,
+				85A8FEED26E64FAB00A1EE58 /* ProfileVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85A8FEDC26E6487200A1EE58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85A8FEDD26E6488A00A1EE58 /* ReuseableViews */ = {
+			isa = PBXGroup;
+			children = (
+				85A8FEDE26E648D700A1EE58 /* CVC */,
+			);
+			path = ReuseableViews;
+			sourceTree = "<group>";
+		};
+		85A8FEDE26E648D700A1EE58 /* CVC */ = {
+			isa = PBXGroup;
+			children = (
+				8529935B26E7A705004BEDF5 /* Home CVC */,
+				8529935C26E7A70C004BEDF5 /* Discover CVC */,
+				8529935D26E7A71D004BEDF5 /* Cards CVC */,
+				8529935E26E7A72A004BEDF5 /* Program CVC */,
+				8529935F26E7A736004BEDF5 /* Profile CVC */,
+			);
+			path = CVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85A8FEBC26E6459C00A1EE58 /* NefesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A8FED426E6459F00A1EE58 /* Build configuration list for PBXNativeTarget "NefesApp" */;
+			buildPhases = (
+				2F0D4FF9D159FB6590DE02DF /* [CP] Check Pods Manifest.lock */,
+				85A8FEB926E6459C00A1EE58 /* Sources */,
+				85A8FEBA26E6459C00A1EE58 /* Frameworks */,
+				85A8FEBB26E6459C00A1EE58 /* Resources */,
+				E8E44C7379AA603A8147803B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NefesApp;
+			productName = NefesApp;
+			productReference = 85A8FEBD26E6459C00A1EE58 /* NefesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85A8FEB526E6459C00A1EE58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					85A8FEBC26E6459C00A1EE58 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 85A8FEB826E6459C00A1EE58 /* Build configuration list for PBXProject "NefesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85A8FEB426E6459C00A1EE58;
+			productRefGroup = 85A8FEBE26E6459C00A1EE58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85A8FEBC26E6459C00A1EE58 /* NefesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85A8FEBB26E6459C00A1EE58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A8FED026E6459F00A1EE58 /* LaunchScreen.storyboard in Resources */,
+				85A8FECD26E6459F00A1EE58 /* Assets.xcassets in Resources */,
+				85FD24C826E8B5C200F16B52 /* DiscoverCVC.xib in Resources */,
+				8529934426E73F06004BEDF5 /* RecommentedCVC.xib in Resources */,
+				8529935726E79598004BEDF5 /* ProgramCVC.xib in Resources */,
+				85A8FEC826E6459C00A1EE58 /* Main.storyboard in Resources */,
+				8529934926E75ED7004BEDF5 /* cardsCollectionsCVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0D4FF9D159FB6590DE02DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NefesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E44C7379AA603A8147803B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NefesApp/Pods-NefesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NefesApp/Pods-NefesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NefesApp/Pods-NefesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85A8FEB926E6459C00A1EE58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8529934826E75ED7004BEDF5 /* cardsCollectionsCVC.swift in Sources */,
+				8529934326E73F06004BEDF5 /* RecommentedCVC.swift in Sources */,
+				85A8FEE526E64F6100A1EE58 /* CategoryVC.swift in Sources */,
+				85FD24C726E8B5C200F16B52 /* DiscoverCVC.swift in Sources */,
+				85A8FEC526E6459C00A1EE58 /* ViewController.swift in Sources */,
+				85A8FEE826E64F7900A1EE58 /* CardsVC.swift in Sources */,
+				85A8FEEE26E64FAB00A1EE58 /* ProfileVC.swift in Sources */,
+				85A8FEE226E64F4200A1EE58 /* HomeVC.swift in Sources */,
+				8529935626E79598004BEDF5 /* ProgramCVC.swift in Sources */,
+				85A8FEC126E6459C00A1EE58 /* AppDelegate.swift in Sources */,
+				85A8FEC326E6459C00A1EE58 /* SceneDelegate.swift in Sources */,
+				85A8FECB26E6459C00A1EE58 /* NefesApp.xcdatamodeld in Sources */,
+				85A8FEEB26E64F9600A1EE58 /* ProgramsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85A8FEC626E6459C00A1EE58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A8FEC726E6459C00A1EE58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85A8FECE26E6459F00A1EE58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85A8FECF26E6459F00A1EE58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85A8FED226E6459F00A1EE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85A8FED326E6459F00A1EE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85A8FED526E6459F00A1EE58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EBBD2F02F86A3216B08B64 /* Pods-NefesApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B6AFN73DR;
+				INFOPLIST_FILE = NefesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NefesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		85A8FED626E6459F00A1EE58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9FF72D1F15FDC51052C181 /* Pods-NefesApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B6AFN73DR;
+				INFOPLIST_FILE = NefesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NefesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85A8FEB826E6459C00A1EE58 /* Build configuration list for PBXProject "NefesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A8FED226E6459F00A1EE58 /* Debug */,
+				85A8FED326E6459F00A1EE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A8FED426E6459F00A1EE58 /* Build configuration list for PBXNativeTarget "NefesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A8FED526E6459F00A1EE58 /* Debug */,
+				85A8FED626E6459F00A1EE58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85A8FEC926E6459C00A1EE58 /* NefesApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85A8FECA26E6459C00A1EE58 /* NefesApp.xcdatamodel */,
+			);
+			currentVersion = 85A8FECA26E6459C00A1EE58 /* NefesApp.xcdatamodel */;
+			path = NefesApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85A8FEB526E6459C00A1EE58 /* Project object */;
+}

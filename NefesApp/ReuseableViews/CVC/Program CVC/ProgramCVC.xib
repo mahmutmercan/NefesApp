@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProgramCVC" id="gTV-IL-0wX" customClass="ProgramCVC" customModule="NefesApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="350"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="350"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aVq-TU-aaZ">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="reo-dU-Uy4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tasavvuf ve Farkındalık" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTq-hc-wjn">
+                        <rect key="frame" x="16" y="208" width="342" height="36"/>
+                        <color key="backgroundColor" red="0.034810965472065351" green="0.042179497925000947" blue="0.54836215101522845" alpha="0.59690710616438358" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="eSf-dL-HNT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <color key="highlightedColor" red="0.97912387339999996" green="0.98083381039999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ferhat Atik" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuU-zO-TxE">
+                        <rect key="frame" x="16" y="252" width="342" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="4cp-8Y-YJe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ÖNE ÇIKAN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOm-4g-53r">
+                        <rect key="frame" x="16" y="306" width="100" height="30"/>
+                        <color key="backgroundColor" red="0.32282513366002297" green="0.5295024537342744" blue="0.66377721065837569" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="uYw-Qc-3gJ"/>
+                            <constraint firstAttribute="height" constant="30" id="xbO-9y-IM3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="May-ag-ms9">
+                        <rect key="frame" x="328" y="308" width="30" height="26.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="7Gh-la-twE"/>
+                            <constraint firstAttribute="width" constant="30" id="IZ4-cG-DmT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İncele" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyn-Nf-N6n">
+                        <rect key="frame" x="260" y="306" width="60" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="m1T-2a-8bT"/>
+                            <constraint firstAttribute="height" constant="30" id="sg6-q7-73b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="aVq-TU-aaZ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2tb-a8-ccY"/>
+                <constraint firstAttribute="trailing" secondItem="aVq-TU-aaZ" secondAttribute="trailing" id="3Mq-B6-RCs"/>
+                <constraint firstItem="May-ag-ms9" firstAttribute="leading" secondItem="cyn-Nf-N6n" secondAttribute="trailing" constant="8" id="I2S-Nd-WAS"/>
+                <constraint firstAttribute="trailing" secondItem="WuU-zO-TxE" secondAttribute="trailing" constant="16" id="Jil-5w-aT4"/>
+                <constraint firstAttribute="trailing" secondItem="May-ag-ms9" secondAttribute="trailing" constant="16" id="KDP-Cw-EAl"/>
+                <constraint firstItem="WuU-zO-TxE" firstAttribute="top" secondItem="GTq-hc-wjn" secondAttribute="bottom" constant="8" id="T2f-2O-ZLZ"/>
+                <constraint firstItem="GTq-hc-wjn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Uxb-a8-USO"/>
+                <constraint firstItem="QOm-4g-53r" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="X2v-S6-JMd"/>
+                <constraint firstItem="GTq-hc-wjn" firstAttribute="top" secondItem="aVq-TU-aaZ" secondAttribute="bottom" constant="8" id="adv-U3-zzs"/>
+                <constraint firstAttribute="trailing" secondItem="GTq-hc-wjn" secondAttribute="trailing" constant="16" id="fpu-Au-uQG"/>
+                <constraint firstItem="QOm-4g-53r" firstAttribute="top" secondItem="WuU-zO-TxE" secondAttribute="bottom" constant="24" id="iEH-KU-ekw"/>
+                <constraint firstItem="aVq-TU-aaZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="jAS-Wt-aFN"/>
+                <constraint firstItem="cyn-Nf-N6n" firstAttribute="top" secondItem="WuU-zO-TxE" secondAttribute="bottom" constant="24" id="lVR-Og-wJf"/>
+                <constraint firstItem="WuU-zO-TxE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="n4A-K5-faa"/>
+                <constraint firstItem="May-ag-ms9" firstAttribute="top" secondItem="WuU-zO-TxE" secondAttribute="bottom" constant="24" id="pca-rM-HK1"/>
+            </constraints>
+            <size key="customSize" width="296" height="308"/>
+            <connections>
+                <outlet property="chevronImageView" destination="May-ag-ms9" id="r3D-DK-CgY"/>
+                <outlet property="examineLabel" destination="cyn-Nf-N6n" id="EUT-Yb-W1W"/>
+                <outlet property="featuredLabel" destination="QOm-4g-53r" id="ihu-t3-o7S"/>
+                <outlet property="programAuthorLabel" destination="WuU-zO-TxE" id="Z36-aB-LzP"/>
+                <outlet property="programImageView" destination="aVq-TU-aaZ" id="bYU-Tx-GJ0"/>
+                <outlet property="programTitleLabel" destination="GTq-hc-wjn" id="k7b-DR-Vo2"/>
+            </connections>
+            <point key="canvasLocation" x="24.637681159420293" y="170.75892857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
