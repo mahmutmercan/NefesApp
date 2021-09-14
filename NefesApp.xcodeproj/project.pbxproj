@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85216F4426E9F45F00C708C6 /* HomeHeaderCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F4226E9F45F00C708C6 /* HomeHeaderCVC.swift */; };
+		85216F4526E9F45F00C708C6 /* HomeHeaderCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F4326E9F45F00C708C6 /* HomeHeaderCVC.xib */; };
+		85216F4A26E9F98200C708C6 /* BeginningCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F4826E9F98200C708C6 /* BeginningCVC.swift */; };
+		85216F4B26E9F98200C708C6 /* BeginningCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F4926E9F98200C708C6 /* BeginningCVC.xib */; };
+		85216F5026E9F99D00C708C6 /* SpecialSeriesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F4E26E9F99D00C708C6 /* SpecialSeriesCVC.swift */; };
+		85216F5126E9F99D00C708C6 /* SpecialSeriesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F4F26E9F99D00C708C6 /* SpecialSeriesCVC.xib */; };
+		85216F5526E9FA8B00C708C6 /* UniqueConcertsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F5326E9FA8B00C708C6 /* UniqueConcertsCVC.swift */; };
+		85216F5626E9FA8B00C708C6 /* UniqueConcertsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F5426E9FA8B00C708C6 /* UniqueConcertsCVC.xib */; };
+		85216F5A26E9FAF500C708C6 /* MoodCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F5826E9FAF500C708C6 /* MoodCVC.swift */; };
+		85216F5B26E9FAF500C708C6 /* MoodCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F5926E9FAF500C708C6 /* MoodCVC.xib */; };
+		85216F6026EA20B900C708C6 /* CarouselCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F5E26EA20B900C708C6 /* CarouselCVC.swift */; };
+		85216F6126EA20B900C708C6 /* CarouselCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F5F26EA20B900C708C6 /* CarouselCVC.xib */; };
+		85216F6826EB3CF800C708C6 /* MoodDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F6626EB3CF800C708C6 /* MoodDetailCVC.swift */; };
+		85216F6926EB3CF800C708C6 /* MoodDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F6726EB3CF800C708C6 /* MoodDetailCVC.xib */; };
+		85216F6D26EF356400C708C6 /* BeginningDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F6B26EF356400C708C6 /* BeginningDetailCVC.swift */; };
+		85216F6E26EF356400C708C6 /* BeginningDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F6C26EF356400C708C6 /* BeginningDetailCVC.xib */; };
+		85216F7226EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F7026EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift */; };
+		85216F7326EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F7126EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib */; };
 		8529934326E73F06004BEDF5 /* RecommentedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529934126E73F06004BEDF5 /* RecommentedCVC.swift */; };
 		8529934426E73F06004BEDF5 /* RecommentedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8529934226E73F06004BEDF5 /* RecommentedCVC.xib */; };
 		8529934826E75ED7004BEDF5 /* cardsCollectionsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */; };
@@ -32,6 +50,24 @@
 
 /* Begin PBXFileReference section */
 		2DB3A595FB10C630AFA79472 /* Pods_NefesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NefesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85216F4226E9F45F00C708C6 /* HomeHeaderCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCVC.swift; sourceTree = "<group>"; };
+		85216F4326E9F45F00C708C6 /* HomeHeaderCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeaderCVC.xib; sourceTree = "<group>"; };
+		85216F4826E9F98200C708C6 /* BeginningCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginningCVC.swift; sourceTree = "<group>"; };
+		85216F4926E9F98200C708C6 /* BeginningCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeginningCVC.xib; sourceTree = "<group>"; };
+		85216F4E26E9F99D00C708C6 /* SpecialSeriesCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialSeriesCVC.swift; sourceTree = "<group>"; };
+		85216F4F26E9F99D00C708C6 /* SpecialSeriesCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialSeriesCVC.xib; sourceTree = "<group>"; };
+		85216F5326E9FA8B00C708C6 /* UniqueConcertsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueConcertsCVC.swift; sourceTree = "<group>"; };
+		85216F5426E9FA8B00C708C6 /* UniqueConcertsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniqueConcertsCVC.xib; sourceTree = "<group>"; };
+		85216F5826E9FAF500C708C6 /* MoodCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodCVC.swift; sourceTree = "<group>"; };
+		85216F5926E9FAF500C708C6 /* MoodCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoodCVC.xib; sourceTree = "<group>"; };
+		85216F5E26EA20B900C708C6 /* CarouselCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCVC.swift; sourceTree = "<group>"; };
+		85216F5F26EA20B900C708C6 /* CarouselCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCVC.xib; sourceTree = "<group>"; };
+		85216F6626EB3CF800C708C6 /* MoodDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailCVC.swift; sourceTree = "<group>"; };
+		85216F6726EB3CF800C708C6 /* MoodDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoodDetailCVC.xib; sourceTree = "<group>"; };
+		85216F6B26EF356400C708C6 /* BeginningDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginningDetailCVC.swift; sourceTree = "<group>"; };
+		85216F6C26EF356400C708C6 /* BeginningDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeginningDetailCVC.xib; sourceTree = "<group>"; };
+		85216F7026EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialSeriesDetailCVC.swift; sourceTree = "<group>"; };
+		85216F7126EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialSeriesDetailCVC.xib; sourceTree = "<group>"; };
 		8529934126E73F06004BEDF5 /* RecommentedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommentedCVC.swift; sourceTree = "<group>"; };
 		8529934226E73F06004BEDF5 /* RecommentedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommentedCVC.xib; sourceTree = "<group>"; };
 		8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsCollectionsCVC.swift; sourceTree = "<group>"; };
@@ -87,11 +123,37 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8529935B26E7A705004BEDF5 /* Home CVC */ = {
+		85216F6426EA2ABC00C708C6 /* HomeDetailCVC */ = {
 			isa = PBXGroup;
 			children = (
 				8529934126E73F06004BEDF5 /* RecommentedCVC.swift */,
 				8529934226E73F06004BEDF5 /* RecommentedCVC.xib */,
+				85216F6626EB3CF800C708C6 /* MoodDetailCVC.swift */,
+				85216F6726EB3CF800C708C6 /* MoodDetailCVC.xib */,
+				85216F6B26EF356400C708C6 /* BeginningDetailCVC.swift */,
+				85216F6C26EF356400C708C6 /* BeginningDetailCVC.xib */,
+				85216F7026EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift */,
+				85216F7126EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib */,
+			);
+			path = HomeDetailCVC;
+			sourceTree = "<group>";
+		};
+		8529935B26E7A705004BEDF5 /* Home CVC */ = {
+			isa = PBXGroup;
+			children = (
+				85216F4226E9F45F00C708C6 /* HomeHeaderCVC.swift */,
+				85216F4326E9F45F00C708C6 /* HomeHeaderCVC.xib */,
+				85216F5E26EA20B900C708C6 /* CarouselCVC.swift */,
+				85216F5F26EA20B900C708C6 /* CarouselCVC.xib */,
+				85216F5826E9FAF500C708C6 /* MoodCVC.swift */,
+				85216F5926E9FAF500C708C6 /* MoodCVC.xib */,
+				85216F4826E9F98200C708C6 /* BeginningCVC.swift */,
+				85216F4926E9F98200C708C6 /* BeginningCVC.xib */,
+				85216F4E26E9F99D00C708C6 /* SpecialSeriesCVC.swift */,
+				85216F4F26E9F99D00C708C6 /* SpecialSeriesCVC.xib */,
+				85216F5326E9FA8B00C708C6 /* UniqueConcertsCVC.swift */,
+				85216F5426E9FA8B00C708C6 /* UniqueConcertsCVC.xib */,
+				85216F6426EA2ABC00C708C6 /* HomeDetailCVC */,
 			);
 			path = "Home CVC";
 			sourceTree = "<group>";
@@ -272,13 +334,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85216F6E26EF356400C708C6 /* BeginningDetailCVC.xib in Resources */,
 				85A8FED026E6459F00A1EE58 /* LaunchScreen.storyboard in Resources */,
+				85216F5126E9F99D00C708C6 /* SpecialSeriesCVC.xib in Resources */,
+				85216F6926EB3CF800C708C6 /* MoodDetailCVC.xib in Resources */,
+				85216F5626E9FA8B00C708C6 /* UniqueConcertsCVC.xib in Resources */,
 				85A8FECD26E6459F00A1EE58 /* Assets.xcassets in Resources */,
+				85216F7326EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib in Resources */,
+				85216F6126EA20B900C708C6 /* CarouselCVC.xib in Resources */,
+				85216F4526E9F45F00C708C6 /* HomeHeaderCVC.xib in Resources */,
 				85FD24C826E8B5C200F16B52 /* DiscoverCVC.xib in Resources */,
 				8529934426E73F06004BEDF5 /* RecommentedCVC.xib in Resources */,
 				8529935726E79598004BEDF5 /* ProgramCVC.xib in Resources */,
 				85A8FEC826E6459C00A1EE58 /* Main.storyboard in Resources */,
+				85216F4B26E9F98200C708C6 /* BeginningCVC.xib in Resources */,
 				8529934926E75ED7004BEDF5 /* cardsCollectionsCVC.xib in Resources */,
+				85216F5B26E9FAF500C708C6 /* MoodCVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,15 +402,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85216F7226EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift in Sources */,
 				8529934826E75ED7004BEDF5 /* cardsCollectionsCVC.swift in Sources */,
+				85216F6026EA20B900C708C6 /* CarouselCVC.swift in Sources */,
+				85216F4426E9F45F00C708C6 /* HomeHeaderCVC.swift in Sources */,
 				8529934326E73F06004BEDF5 /* RecommentedCVC.swift in Sources */,
 				85A8FEE526E64F6100A1EE58 /* CategoryVC.swift in Sources */,
 				85FD24C726E8B5C200F16B52 /* DiscoverCVC.swift in Sources */,
 				85A8FEC526E6459C00A1EE58 /* ViewController.swift in Sources */,
 				85A8FEE826E64F7900A1EE58 /* CardsVC.swift in Sources */,
+				85216F6D26EF356400C708C6 /* BeginningDetailCVC.swift in Sources */,
+				85216F6826EB3CF800C708C6 /* MoodDetailCVC.swift in Sources */,
+				85216F5526E9FA8B00C708C6 /* UniqueConcertsCVC.swift in Sources */,
 				85A8FEEE26E64FAB00A1EE58 /* ProfileVC.swift in Sources */,
+				85216F5A26E9FAF500C708C6 /* MoodCVC.swift in Sources */,
 				85A8FEE226E64F4200A1EE58 /* HomeVC.swift in Sources */,
+				85216F5026E9F99D00C708C6 /* SpecialSeriesCVC.swift in Sources */,
 				8529935626E79598004BEDF5 /* ProgramCVC.swift in Sources */,
+				85216F4A26E9F98200C708C6 /* BeginningCVC.swift in Sources */,
 				85A8FEC126E6459C00A1EE58 /* AppDelegate.swift in Sources */,
 				85A8FEC326E6459C00A1EE58 /* SceneDelegate.swift in Sources */,
 				85A8FECB26E6459C00A1EE58 /* NefesApp.xcdatamodeld in Sources */,

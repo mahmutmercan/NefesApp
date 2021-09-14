@@ -30,7 +30,7 @@ class CategoryVC: UIViewController {
         discoverHeaderContainer.backgroundColor = UIColor(red: 70/255, green: 117/255, blue: 146/255, alpha: 1.0)
         self.view.backgroundColor = UIColor(red: 82/255, green: 135/255, blue: 169/255, alpha: 1.0)
         discoverCollectionView.backgroundColor = UIColor(red: 82/255, green: 135/255, blue: 169/255, alpha: 1.0)
-        self.discoverSearchBar.backgroundColor = UIColor(red: 82/255, green: 135/255, blue: 169/255, alpha: 1.0)
+        self.discoverSearchBar.backgroundColor = .clear
         discoverHeaderContainer.layer.cornerRadius = 20
     }
     

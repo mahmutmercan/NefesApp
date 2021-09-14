@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeHeaderCVC" id="gTV-IL-0wX" customClass="HomeHeaderCVC" customModule="NefesApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="272"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="272"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İyi günler, Mahmut!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JX1-T7-Pnq">
+                        <rect key="frame" x="24" y="40" width="275" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="SJL-gp-hbs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3o-hi-i3M">
+                        <rect key="frame" x="315" y="40" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="DHP-aW-bEH"/>
+                            <constraint firstAttribute="width" constant="40" id="fLP-Wi-ZJP"/>
+                        </constraints>
+                        <state key="normal" image="heart.fill" catalog="system"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CUM-8K-EOZ">
+                        <rect key="frame" x="24" y="96" width="331" height="104"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GÜNLÜK MUCİZE " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KuV-Sv-R7s">
+                                <rect key="frame" x="95.5" y="8" width="140" height="16"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Zfh-3d-Bw7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beden ve ruh sağlığına önem veriyorum, sağlıklı olmayı hak ediyorum." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UT-kh-svl">
+                                <rect key="frame" x="24" y="40" width="283" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1UC-Je-qEJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KuV-Sv-R7s" firstAttribute="centerX" secondItem="CUM-8K-EOZ" secondAttribute="centerX" id="1Vw-Mj-Ke1"/>
+                            <constraint firstItem="KuV-Sv-R7s" firstAttribute="top" secondItem="CUM-8K-EOZ" secondAttribute="top" constant="8" id="Fhp-Ca-Qs6"/>
+                            <constraint firstAttribute="height" constant="104" id="I2n-Dn-gEj"/>
+                            <constraint firstItem="6UT-kh-svl" firstAttribute="leading" secondItem="CUM-8K-EOZ" secondAttribute="leading" constant="24" id="NlN-Se-q8M"/>
+                            <constraint firstAttribute="trailing" secondItem="6UT-kh-svl" secondAttribute="trailing" constant="24" id="UuP-Aw-xbD"/>
+                            <constraint firstItem="6UT-kh-svl" firstAttribute="top" secondItem="KuV-Sv-R7s" secondAttribute="bottom" constant="16" id="gNy-tL-WZS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="CUM-8K-EOZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="5No-Gb-To1"/>
+                <constraint firstAttribute="trailing" secondItem="J3o-hi-i3M" secondAttribute="trailing" constant="24" id="6ne-OO-mdT"/>
+                <constraint firstAttribute="trailing" secondItem="CUM-8K-EOZ" secondAttribute="trailing" constant="24" id="70r-Ln-Xyy"/>
+                <constraint firstItem="JX1-T7-Pnq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="9iv-z5-EWq"/>
+                <constraint firstItem="J3o-hi-i3M" firstAttribute="leading" secondItem="JX1-T7-Pnq" secondAttribute="trailing" constant="16" id="9qR-Ss-6KC"/>
+                <constraint firstItem="J3o-hi-i3M" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="CjR-Br-9rm"/>
+                <constraint firstItem="CUM-8K-EOZ" firstAttribute="top" secondItem="JX1-T7-Pnq" secondAttribute="bottom" constant="16" id="Nm6-p5-Cim"/>
+                <constraint firstItem="JX1-T7-Pnq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="kYy-tv-VIc"/>
+            </constraints>
+            <size key="customSize" width="379" height="272"/>
+            <connections>
+                <outlet property="favoritesButton" destination="J3o-hi-i3M" id="nub-aH-b5j"/>
+                <outlet property="headerDescriptionLabel" destination="6UT-kh-svl" id="lJs-5p-OfJ"/>
+                <outlet property="headerTitleLabel" destination="KuV-Sv-R7s" id="u5r-0k-3k8"/>
+                <outlet property="headerView" destination="CUM-8K-EOZ" id="EYV-MF-Xqw"/>
+                <outlet property="titleLabel" destination="JX1-T7-Pnq" id="w4s-bC-NoN"/>
+            </connections>
+            <point key="canvasLocation" x="92.028985507246389" y="141.29464285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="109"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
