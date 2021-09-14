@@ -25,8 +25,9 @@
 		85216F6E26EF356400C708C6 /* BeginningDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F6C26EF356400C708C6 /* BeginningDetailCVC.xib */; };
 		85216F7226EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F7026EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift */; };
 		85216F7326EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F7126EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib */; };
-		8529934326E73F06004BEDF5 /* RecommentedCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529934126E73F06004BEDF5 /* RecommentedCVC.swift */; };
-		8529934426E73F06004BEDF5 /* RecommentedCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8529934226E73F06004BEDF5 /* RecommentedCVC.xib */; };
+		85216F7A26F0D16D00C708C6 /* CarouselDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F7826F0D16D00C708C6 /* CarouselDetailCVC.swift */; };
+		85216F7B26F0D16D00C708C6 /* CarouselDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85216F7926F0D16D00C708C6 /* CarouselDetailCVC.xib */; };
+		85216F7F26F0D52E00C708C6 /* SoundListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85216F7E26F0D52E00C708C6 /* SoundListVC.swift */; };
 		8529934826E75ED7004BEDF5 /* cardsCollectionsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */; };
 		8529934926E75ED7004BEDF5 /* cardsCollectionsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8529934726E75ED7004BEDF5 /* cardsCollectionsCVC.xib */; };
 		8529935626E79598004BEDF5 /* ProgramCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8529935426E79598004BEDF5 /* ProgramCVC.swift */; };
@@ -68,8 +69,9 @@
 		85216F6C26EF356400C708C6 /* BeginningDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeginningDetailCVC.xib; sourceTree = "<group>"; };
 		85216F7026EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialSeriesDetailCVC.swift; sourceTree = "<group>"; };
 		85216F7126EF4A9B00C708C6 /* SpecialSeriesDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecialSeriesDetailCVC.xib; sourceTree = "<group>"; };
-		8529934126E73F06004BEDF5 /* RecommentedCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommentedCVC.swift; sourceTree = "<group>"; };
-		8529934226E73F06004BEDF5 /* RecommentedCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommentedCVC.xib; sourceTree = "<group>"; };
+		85216F7826F0D16D00C708C6 /* CarouselDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselDetailCVC.swift; sourceTree = "<group>"; };
+		85216F7926F0D16D00C708C6 /* CarouselDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselDetailCVC.xib; sourceTree = "<group>"; };
+		85216F7E26F0D52E00C708C6 /* SoundListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundListVC.swift; sourceTree = "<group>"; };
 		8529934626E75ED7004BEDF5 /* cardsCollectionsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsCollectionsCVC.swift; sourceTree = "<group>"; };
 		8529934726E75ED7004BEDF5 /* cardsCollectionsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cardsCollectionsCVC.xib; sourceTree = "<group>"; };
 		8529935426E79598004BEDF5 /* ProgramCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramCVC.swift; sourceTree = "<group>"; };
@@ -126,8 +128,8 @@
 		85216F6426EA2ABC00C708C6 /* HomeDetailCVC */ = {
 			isa = PBXGroup;
 			children = (
-				8529934126E73F06004BEDF5 /* RecommentedCVC.swift */,
-				8529934226E73F06004BEDF5 /* RecommentedCVC.xib */,
+				85216F7826F0D16D00C708C6 /* CarouselDetailCVC.swift */,
+				85216F7926F0D16D00C708C6 /* CarouselDetailCVC.xib */,
 				85216F6626EB3CF800C708C6 /* MoodDetailCVC.swift */,
 				85216F6726EB3CF800C708C6 /* MoodDetailCVC.xib */,
 				85216F6B26EF356400C708C6 /* BeginningDetailCVC.swift */,
@@ -244,6 +246,7 @@
 				85A8FEE726E64F7900A1EE58 /* CardsVC.swift */,
 				85A8FEEA26E64F9600A1EE58 /* ProgramsVC.swift */,
 				85A8FEED26E64FAB00A1EE58 /* ProfileVC.swift */,
+				85216F7E26F0D52E00C708C6 /* SoundListVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -344,8 +347,8 @@
 				85216F6126EA20B900C708C6 /* CarouselCVC.xib in Resources */,
 				85216F4526E9F45F00C708C6 /* HomeHeaderCVC.xib in Resources */,
 				85FD24C826E8B5C200F16B52 /* DiscoverCVC.xib in Resources */,
-				8529934426E73F06004BEDF5 /* RecommentedCVC.xib in Resources */,
 				8529935726E79598004BEDF5 /* ProgramCVC.xib in Resources */,
+				85216F7B26F0D16D00C708C6 /* CarouselDetailCVC.xib in Resources */,
 				85A8FEC826E6459C00A1EE58 /* Main.storyboard in Resources */,
 				85216F4B26E9F98200C708C6 /* BeginningCVC.xib in Resources */,
 				8529934926E75ED7004BEDF5 /* cardsCollectionsCVC.xib in Resources */,
@@ -404,9 +407,9 @@
 			files = (
 				85216F7226EF4A9B00C708C6 /* SpecialSeriesDetailCVC.swift in Sources */,
 				8529934826E75ED7004BEDF5 /* cardsCollectionsCVC.swift in Sources */,
+				85216F7F26F0D52E00C708C6 /* SoundListVC.swift in Sources */,
 				85216F6026EA20B900C708C6 /* CarouselCVC.swift in Sources */,
 				85216F4426E9F45F00C708C6 /* HomeHeaderCVC.swift in Sources */,
-				8529934326E73F06004BEDF5 /* RecommentedCVC.swift in Sources */,
 				85A8FEE526E64F6100A1EE58 /* CategoryVC.swift in Sources */,
 				85FD24C726E8B5C200F16B52 /* DiscoverCVC.swift in Sources */,
 				85A8FEC526E6459C00A1EE58 /* ViewController.swift in Sources */,
@@ -415,6 +418,7 @@
 				85216F6826EB3CF800C708C6 /* MoodDetailCVC.swift in Sources */,
 				85216F5526E9FA8B00C708C6 /* UniqueConcertsCVC.swift in Sources */,
 				85A8FEEE26E64FAB00A1EE58 /* ProfileVC.swift in Sources */,
+				85216F7A26F0D16D00C708C6 /* CarouselDetailCVC.swift in Sources */,
 				85216F5A26E9FAF500C708C6 /* MoodCVC.swift in Sources */,
 				85A8FEE226E64F4200A1EE58 /* HomeVC.swift in Sources */,
 				85216F5026E9F99D00C708C6 /* SpecialSeriesCVC.swift in Sources */,

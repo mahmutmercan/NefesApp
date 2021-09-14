@@ -134,7 +134,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
 
         }
         else if indexPath.row == 1 {
-            return CGSize(width: UIScreen.main.bounds.width, height: 250)
+            return CGSize(width: UIScreen.main.bounds.width, height: 320)
 
         }
         else if indexPath.row == 2 {

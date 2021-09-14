@@ -17,13 +17,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="406" height="277"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="CMG-5t-ThI">
-                        <rect key="frame" x="0.0" y="249" width="406" height="28"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="28" id="rne-cJ-aBy"/>
-                        </constraints>
-                    </pageControl>
-                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Frd-BM-fWq">
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Frd-BM-fWq">
                         <rect key="frame" x="0.0" y="0.0" width="406" height="249"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bqU-bD-NSf">
@@ -33,21 +27,29 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                     </collectionView>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1rp-Co-LG7">
+                        <rect key="frame" x="0.0" y="249" width="406" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="l0d-pR-m2x"/>
+                        </constraints>
+                        <color key="pageIndicatorTintColor" systemColor="systemYellowColor"/>
+                        <color key="currentPageIndicatorTintColor" systemColor="systemRedColor"/>
+                    </pageControl>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="CMG-5t-ThI" secondAttribute="bottom" id="DsZ-Ya-EOE"/>
-                <constraint firstItem="Frd-BM-fWq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JfY-Nh-xqd"/>
-                <constraint firstItem="CMG-5t-ThI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rh8-wp-Gnm"/>
-                <constraint firstItem="CMG-5t-ThI" firstAttribute="top" secondItem="Frd-BM-fWq" secondAttribute="bottom" id="T13-eO-Nko"/>
-                <constraint firstAttribute="trailing" secondItem="Frd-BM-fWq" secondAttribute="trailing" id="UzS-t8-rnT"/>
-                <constraint firstItem="Frd-BM-fWq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Wnt-M4-K1f"/>
-                <constraint firstAttribute="trailing" secondItem="CMG-5t-ThI" secondAttribute="trailing" id="aoL-8g-wZp"/>
+                <constraint firstItem="1rp-Co-LG7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1AX-1a-hgN"/>
+                <constraint firstItem="Frd-BM-fWq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8nl-ln-QCN"/>
+                <constraint firstAttribute="trailing" secondItem="1rp-Co-LG7" secondAttribute="trailing" id="Cgg-2Y-6Kg"/>
+                <constraint firstAttribute="bottom" secondItem="1rp-Co-LG7" secondAttribute="bottom" id="YG2-2o-rcW"/>
+                <constraint firstAttribute="trailing" secondItem="Frd-BM-fWq" secondAttribute="trailing" id="dHq-Li-SS5"/>
+                <constraint firstItem="Frd-BM-fWq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hDV-Hx-BMP"/>
+                <constraint firstItem="1rp-Co-LG7" firstAttribute="top" secondItem="Frd-BM-fWq" secondAttribute="bottom" id="sbb-Y4-rS0"/>
             </constraints>
             <size key="customSize" width="406" height="277"/>
             <connections>
                 <outlet property="carouselCollectionView" destination="Frd-BM-fWq" id="CB2-Y8-eIe"/>
-                <outlet property="carouselPageControl" destination="CMG-5t-ThI" id="vGZ-o4-lyN"/>
+                <outlet property="carouselPageControl" destination="1rp-Co-LG7" id="f3A-tW-R07"/>
             </connections>
             <point key="canvasLocation" x="-21.739130434782609" y="155.69196428571428"/>
         </collectionViewCell>
@@ -55,6 +57,12 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
