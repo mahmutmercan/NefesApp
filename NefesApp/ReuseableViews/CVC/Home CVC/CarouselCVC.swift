@@ -30,11 +30,12 @@ class CarouselCVC: UICollectionViewCell {
 
 extension CarouselCVC {
     private func setupCollectionView() {
-        carouselCollectionView.backgroundColor = .clear
+//        carouselCollectionView.backgroundColor = .clear
         carouselCollectionView.delegate = self
         carouselCollectionView.dataSource = self
         carouselCollectionView.setCollectionViewLayout(collectionViewLayout, animated: true)
         carouselCollectionView.showsHorizontalScrollIndicator = false
+        
         carouselCollectionView.register(RecommentedCVC.nib(), forCellWithReuseIdentifier: RecommentedCVC.identifier)
 
         setupCollectionLayout()
@@ -43,10 +44,8 @@ extension CarouselCVC {
     private func setupCollectionLayout() {
         let screenSize = UIScreen.main.bounds.width
         let minimumLineSpacingValue: CGFloat = 16
-        let rowItemCount: CGFloat = 2
-        let itemW = (screenSize - (32 + (minimumLineSpacingValue * 2))) / rowItemCount
-//        let itemW = (screenSize - (minimumLineSpacingValue * (rowItemCount - 1))) / rowItemCount
-//        let itemW :CGFloat = 162.0
+        let rowItemCount: CGFloat = 1
+        let itemW = ((screenSize - (minimumLineSpacingValue * 2)) / rowItemCount)
         print(itemW)
             
         let itemH :CGFloat = 229.0
@@ -69,6 +68,7 @@ extension CarouselCVC: UICollectionViewDelegate, UICollectionViewDataSource, UIC
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RecommentedCVC.identifier, for: indexPath) as! RecommentedCVC
         cell.cellConfigure(imageName: "nattu-adnan", title: "21 GÜNDE DÜŞÜNCE DETOKSU", subtitle: "SINGLE", suggested: "ÖNERİLEN")
+        cell.backgroundColor = .orange
         return cell
     }
     

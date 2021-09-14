@@ -41,17 +41,13 @@ extension MoodCVC {
     }
     
     private func setupCollectionLayout() {
-        let screenSize = UIScreen.main.bounds.width / 3
-        print(screenSize)
+        let screenSize = UIScreen.main.bounds.width
         let minimumLineSpacingValue: CGFloat = 8
         let rowItemCount: CGFloat = 3
-        let itemW = ((screenSize - (32 + (minimumLineSpacingValue * 2))) / rowItemCount) - 60
-//        let itemW = (screenSize - (minimumLineSpacingValue * (rowItemCount - 1))) / rowItemCount
-        print(itemW)
+        let itemW = (screenSize - ((minimumLineSpacingValue * 2 + 32))) / rowItemCount
             
-        let itemH :CGFloat = 120.0
-        itemSize = CGSize(width: screenSize, height: itemH)
-        print(itemSize)
+        let itemH :CGFloat = 100.0
+        itemSize = CGSize(width: itemW, height: itemH)
             
         collectionViewLayout.scrollDirection = .horizontal
         collectionViewLayout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -68,7 +64,11 @@ extension MoodCVC: UICollectionViewDelegate, UICollectionViewDataSource, UIColle
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MoodDetailCVC.identifier, for: indexPath) as! MoodDetailCVC
-        cell.cellConfigure(imageName: "nattu-adnan", iconName: "nattu-adnan", title: "Nasılsın", subtitle: "Nefes")
+        cell.backgroundColor = .green
+        cell.cellConfigure(imageName: "nattu-adnan",
+                           iconName: "nattu-adnan",
+                           title: "Nasılsın?",
+                           subtitle: "Duygu Defteri")
         return cell
     }
     

@@ -18,7 +18,13 @@ class BeginningDetailCVC: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setInterface()
         // Initialization code
+    }
+    func setInterface() {
+        beginningImageView.contentMode = .scaleAspectFill
+        beginningImageView.layer.cornerRadius = 16
+
     }
     func cellConfigure(time: String, mode: String, title: String, imageName: String) {
         timeLabel.text = time

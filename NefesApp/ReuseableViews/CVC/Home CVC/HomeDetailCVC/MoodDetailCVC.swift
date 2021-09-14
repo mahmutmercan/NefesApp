@@ -18,7 +18,21 @@ class MoodDetailCVC: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setInterface()
         // Initialization code
+    }
+    
+    func setInterface() {
+        moodDetailImageView.contentMode = .scaleAspectFill
+        self.layer.cornerRadius = 16
+        moodDetailIconImageView.layer.cornerRadius = 8
+        
+        moodDetailTitleLabel.text = "Nasılsın?"
+        moodDetailTitleLabel.textColor = .white
+        
+        moodDetailSubtitleLabel.text = "Duygu Defteri"
+        moodDetailSubtitleLabel.textColor = .lightGray
+        
     }
 
     static func nib()-> UINib {

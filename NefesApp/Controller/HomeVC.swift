@@ -17,6 +17,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCollectionView()
+        homeCollectionView.backgroundColor = .green
 //        let imageView = UIImageView()
 //        imageView.image = UIImage(named: "nattu-adnan")
 //        imageView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 100)

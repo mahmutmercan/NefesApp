@@ -37,7 +37,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jcB-As-uTX">
-                        <rect key="frame" x="8" y="72" width="199" height="106"/>
+                        <rect key="frame" x="8" y="72" width="207" height="106"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="87b-dK-u65">
                             <size key="itemSize" width="128" height="128"/>
@@ -50,7 +50,7 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="jcB-As-uTX" secondAttribute="trailing" constant="8" id="LrG-kx-NJ4"/>
+                <constraint firstAttribute="trailing" secondItem="jcB-As-uTX" secondAttribute="trailing" id="LrG-kx-NJ4"/>
                 <constraint firstItem="jcB-As-uTX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="RR4-eR-gyV"/>
                 <constraint firstItem="op7-F1-0bk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="RbV-yt-YRN"/>
                 <constraint firstItem="yrL-0s-A0J" firstAttribute="top" secondItem="op7-F1-0bk" secondAttribute="bottom" constant="8" id="Slr-qa-dDf"/>

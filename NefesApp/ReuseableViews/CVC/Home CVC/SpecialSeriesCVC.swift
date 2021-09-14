@@ -54,17 +54,13 @@ extension SpecialSeriesCVC {
     }
     
     private func setupCollectionLayout() {
-        let screenSize = UIScreen.main.bounds.width / 3
-        print(screenSize)
+        let screenSize = UIScreen.main.bounds.width
         let minimumLineSpacingValue: CGFloat = 8
         let rowItemCount: CGFloat = 2
-//        let itemW = (screenSize - (32 + (minimumLineSpacingValue * 2))) / rowItemCount
-        let itemW :CGFloat = 300.0
-        print(itemW)
+        let itemW = (screenSize - ((minimumLineSpacingValue * 2) + 32)) / rowItemCount
             
-        let itemH :CGFloat = 170.0
-        itemSize = CGSize(width: screenSize, height: itemH)
-        print(itemSize)
+        let itemH :CGFloat = 180.0
+        itemSize = CGSize(width: itemW, height: itemH)
             
         collectionViewLayout.scrollDirection = .horizontal
         collectionViewLayout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -81,7 +77,7 @@ extension SpecialSeriesCVC: UICollectionViewDelegate, UICollectionViewDataSource
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: SpecialSeriesDetailCVC.identifier, for: indexPath) as! SpecialSeriesDetailCVC
-        cell.cellConfigure(time: "36dk", mode: "KURS", title: "Bilinçaltı Arındırma Atölyesi", imageName: "nattu-adnan")
+        cell.cellConfigure(time: "36dk", mode: "KURS", title: "Bilinçaltı Arındırma Atölyesi Deneme Tahtası", imageName: "nattu-adnan")
         return cell
     }
     

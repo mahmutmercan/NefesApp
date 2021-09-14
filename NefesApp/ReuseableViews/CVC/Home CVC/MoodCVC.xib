@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7p6-lt-dwM">
-                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                        <rect key="frame" x="16" y="0.0" width="88" height="120"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3oo-5Z-kOp">
                             <size key="itemSize" width="128" height="128"/>
@@ -33,9 +33,9 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="7p6-lt-dwM" secondAttribute="bottom" id="9sz-9O-MUB"/>
-                <constraint firstItem="7p6-lt-dwM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Y3f-Lr-Cxy"/>
+                <constraint firstItem="7p6-lt-dwM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="16" id="Y3f-Lr-Cxy"/>
                 <constraint firstItem="7p6-lt-dwM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aFl-b5-gMV"/>
-                <constraint firstAttribute="trailing" secondItem="7p6-lt-dwM" secondAttribute="trailing" id="w2S-bX-14i"/>
+                <constraint firstAttribute="trailing" secondItem="7p6-lt-dwM" secondAttribute="trailing" constant="16" id="w2S-bX-14i"/>
             </constraints>
             <size key="customSize" width="198" height="163"/>
             <connections>

@@ -19,8 +19,14 @@ class SpecialSeriesDetailCVC: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        setInterface()
         // Initialization code
     }
+    func setInterface() {
+        specialSeriesImageView.contentMode = .scaleAspectFill
+        specialSeriesImageView.layer.cornerRadius = 16
+    }
+
     func cellConfigure(time: String, mode: String, title: String, imageName: String) {
         timeLabel.text = time
         modeLabel.text = mode
